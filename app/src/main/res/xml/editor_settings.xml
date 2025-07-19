@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SeekBarPreference
+        android:max="32"
+        app:defaultValue="18"
+        app:icon="@drawable/ic_text_size"
+        app:key="font_size"
+        app:layout="@layout/seekbar_settings_item"
+        app:min="12"
+        app:selectable="false"
+        app:showSeekBarValue="true"
+        app:summary="@string/pref_font_summary"
+        app:title="@string/pref_font_title" />
+
+    <s.ide.ui.preference.MaterialMultiSelectListPreference
+        app:entries="@array/symbols"
+        app:entryValues="@array/symbol_values"
+        app:icon="@drawable/ic_special"
+        app:key="symbols"
+        app:layout="@layout/text_settings_item"
+        app:summary="@string/pref_symbols"
+        app:title="@string/pref_symbols_title" />
+
+    <s.ide.ui.preference.MaterialListPreference
+        app:defaultValue="4"
+        app:entries="@array/tab_size_entries"
+        app:entryValues="@array/tab_size_values"
+        app:icon="@drawable/ic_tab_size"
+        app:key="tab_size"
+        app:layout="@layout/text_settings_item"
+        app:summary="@string/pref_tab_size"
+        app:title="@string/pref_tab_size_title" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:icon="@drawable/ic_sticky_scroll"
+        app:key="sticky_scroll"
+        app:layout="@layout/switch_settings_item"
+        app:summary="@string/pref_editor_opt1_summary"
+        app:title="@string/pref_editor_opt1_title" />
+
+    <SwitchPreferenceCompat
+        app:icon="@drawable/ic_wrap"
+        app:key="word_wrap"
+        app:layout="@layout/switch_settings_item"
+        app:summary="@string/pref_editor_opt2_summary"
+        app:title="@string/pref_editor_opt2_title" />
+
+    <SwitchPreferenceCompat
+        app:icon="@drawable/ic_scroll"
+        app:key="scroll_bar"
+        app:layout="@layout/switch_settings_item"
+        app:summary="@string/pref_editor_opt3_summary"
+        app:title="@string/pref_editor_opt3_title" />
+
+    <SwitchPreferenceCompat
+        app:icon="@drawable/ic_ligatures"
+        app:key="font_ligatures"
+        app:layout="@layout/switch_settings_item"
+        app:summary="@string/pref_editor_opt4_summary"
+        app:title="@string/pref_editor_opt4_title" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:icon="@drawable/ic_format_2"
+        app:key="google_java_format_style"
+        app:layout="@layout/switch_settings_item"
+        app:summary="@string/pref_formatter_style_summary"
+        app:title="@string/pref_formatter_style_title" />
+
+    <s.ide.ui.preference.MaterialMultiSelectListPreference
+        app:entries="@array/formatter_options_entries"
+        app:entryValues="@array/formatter_options_values"
+        app:icon="@drawable/ic_format_1"
+        app:key="google_java_format_options"
+        app:layout="@layout/text_settings_item"
+        app:summary="@string/pref_formatter_options_summary"
+        app:title="@string/pref_formatter_options_title" />
+
+</androidx.preference.PreferenceScreen>

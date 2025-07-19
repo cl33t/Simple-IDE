@@ -1,0 +1,136 @@
+<resources>
+    <string name="message_removed">Successfully removed</string>
+    <string name="message_renamed">Successfully renamed</string>
+    <string name="message_copied">Successfully copied</string>
+    <string name="message_already_exist">Choose another name</string>
+    <string name="message_wrong_name">Enter correct name</string>
+
+    <string name="action_rename">Rename</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_create_file">Create file</string>
+    <string name="action_create_folder">Create folder</string>
+    <string name="action_close">Close</string>
+    <string name="action_copy_path">Copy path</string>
+    <string name="action_close_others">Close others</string>
+    <string name="action_close_all">Close all</string>
+    <string name="action_save">Save</string>
+    <string name="action_run">Run</string>
+    <string name="action_reundo">Undo or redo action</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_back">Back</string>
+    <string name="action_create">Create</string>
+    <string name="action_prev">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_replace">Replace</string>
+    <string name="action_replace_all">Replace all</string>
+    <string name="action_download">Download</string>
+    <string name="confirm_action">Confirm action</string>
+    <string name="confirm_delete">Are you sure you want to delete?</string>
+
+    <string name="rename_dialog_title">Rename to…</string>
+
+    <string name="projects_text">Your projects</string>
+    <string name="hint_edittext_choose">" "</string>
+
+    <string name="hint_text_1">Project name</string>
+    <string name="hint_text_2">Package name</string>
+    <string name="hint_text_3">Version code</string>
+    <string name="hint_text_4">Version name</string>
+    <string name="field1_error">Enter correct project name</string>
+    <string name="field2_error">Enter correct package name</string>
+    <string name="field5_error">Enter correct version code</string>
+    <string name="field6_error">Enter correct version name</string>
+    <string name="minSdk" translatable="false">Min SDK</string>
+    <string name="targetSdk" translatable="false">Target SDK</string>
+
+    <string name="sdk_34" translatable="false">API 34: Android 14 (U)</string>
+    <string name="sdk_33" translatable="false">API 33: Android 13 (T)</string>
+    <string name="sdk_32" translatable="false">API 32: Android 12.1 (S_V2)</string>
+    <string name="sdk_31" translatable="false">API 31: Android 12.0 (S)</string>
+    <string name="sdk_30" translatable="false">API 30: Android 11.0 (R)</string>
+    <string name="sdk_29" translatable="false">API 29: Android 10.0 (Q)</string>
+    <string name="sdk_28" translatable="false">API 28: Android 9.0 (Pie)</string>
+    <string name="sdk_27" translatable="false">API 27: Android 8.1 (Oreo)</string>
+    <string name="sdk_26" translatable="false">API 26: Android 8.0 (Oreo)</string>
+    <string name="sdk_25" translatable="false">API 25: Android 7.1 (Nougat)</string>
+    <string name="sdk_24" translatable="false">API 24: Android 7.0 (Nougat)</string>
+    <string name="sdk_23" translatable="false">API 23: Android 6.0 (Marshmallow)</string>
+    <string name="sdk_22" translatable="false">API 22: Android 5.1 (Lollipop)</string>
+    <string name="sdk_21" translatable="false">API 21: Android 5.0 (Lollipop)</string>
+
+    <string name="create_project_activity_title">New project</string>
+    <string name="editor_activity_title" />
+    <string name="settings">Settings</string>
+    <string name="file_extension_error">Unknown file extension</string>
+
+    <string name="pref_editor_title">Code editor</string>
+    <string name="pref_editor_summary">Customize editor settings</string>
+    <string name="pref_build_title"><![CDATA[Build & Run]]></string>
+    <string name="pref_build_summary">Configure build options and execution settings</string>
+    <string name="pref_font_title">Font size</string>
+    <string name="pref_font_summary">Set the font size for the editor</string>
+    <string name="pref_editor_opt0_title">Use app colors in the editor</string>
+    <string name="pref_editor_opt0_summary">Adjust certain colors to align with the app\'s theme (RESTART REQUIRED)</string>
+    <string name="pref_editor_opt1_title">Sticky scroll</string>
+    <string name="pref_editor_opt1_summary">Enable sticky scroll in the editor</string>
+    <string name="pref_editor_opt2_title">Word wrap</string>
+    <string name="pref_editor_opt2_summary">Enable word wrap in the editor</string>
+    <string name="pref_editor_opt3_title">Scrollbars</string>
+    <string name="pref_editor_opt3_summary">Enable scrollbars in the editor</string>
+    <string name="pref_editor_opt4_title">Font ligatures</string>
+    <string name="pref_editor_opt4_summary">Enable ligatures in the editor</string>
+    <string name="pref_build_run_opt1_title">APK auto install</string>
+    <string name="pref_build_run_opt1_summary">Try to install app after compilation is complete</string>
+    <string name="pref_tab_size">Set the tab size for the editor</string>
+    <string name="pref_tab_size_title">Tab size</string>
+    <string name="pref_symbols_title">Non-printable painting flags</string>
+    <string name="pref_symbols">What should be drawn by the editor</string>
+    <string name="pref_theme_title">App theme</string>
+    <string name="pref_theme_summary">Customize app theme</string>
+    <string name="pref_formatter_style_summary">Use Google or AOSP style code formatter</string>
+    <string name="pref_formatter_style_title">Google style formatter</string>
+    <string name="pref_formatter_options_title">Formatter options</string>
+    <string name="pref_formatter_options_summary">Which options should code formatter use</string>
+
+    <string name="replacement">Replacement</string>
+    <string name="text_to_search">Text to search</string>
+    <string name="case_sensitive">Match case</string>
+    <string name="use_regex">Regex</string>
+
+    <string name="menu_search">Search menu</string>
+    <string name="menu_libs">Download library</string>
+
+    <string name="follow_system">Follow system</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="exit_message">Do you really want to close this project?</string>
+    <string name="exit_title">Confirm</string>
+    <string name="exit_negative">Cancel</string>
+    <string name="exit_positive">Close</string>
+
+    <string name="download_dependency">Download dependency</string>
+    <string name="enter_dependency">Enter dependency</string>
+    <string name="local_library_manager_dependency_example">Example: org.ow2.asm:asm:9.5</string>
+    <string name="local_library_manager_skip_downloading_dependencies">Skip downloading sub-dependencies</string>
+    <string name="pref_build_run_opt2_title">Detailed logging</string>
+    <string name="pref_build_run_opt2_summary">Should the compiler display each build step in detail</string>
+    <string name="some_error">Something went wrong</string>
+    <string name="action_negative">Cancel</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="message_saved">Saved successfully</string>
+    <string name="menu_format_code">Format code</string>
+    <string name="leading">Leading</string>
+    <string name="trailing">Trailing</string>
+    <string name="inner">Inner</string>
+    <string name="empty_lines">Empty lines</string>
+    <string name="line_breaks">Line breaks</string>
+    <string name="fix_imports_only">Fix imports only</string>
+    <string name="skip_sorting_imports">Skip sorting imports</string>
+    <string name="skip_removing_unused_imports">Skip removing unused imports</string>
+    <string name="skip_reflowing_long_strings">Skip reflowing long strings</string>
+    <string name="skip_javadoc_formatting">Skip Javadoc formatting</string>
+    <string name="pref_build_run_opt3_title">Enable desugaring</string>
+    <string name="pref_build_run_opt3_summary">Desugaring allows you to use Java 8 functions and API. If you are not using it, minSdk must be set to 26</string>
+    <string name="action_import_file">Import file</string>
+</resources>

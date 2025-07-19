@@ -1,0 +1,12 @@
+-dontwarn com.**
+-dontwarn java.**
+-dontwarn javac.**
+-keep class org.** { *; }
+-keep class eup.** { *; }
+-keep class javax.** { *; }
+-keep class com.** { *; }
+-keep class io.** { *; }
+-dontwarn kotlin.**
+-dontwarn org.**
+-dontwarn sun.**
+-dontwarn javax.**

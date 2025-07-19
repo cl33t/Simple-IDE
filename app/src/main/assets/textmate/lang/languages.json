@@ -1,0 +1,62 @@
+{
+  "languages": [
+    {
+      "grammar": "textmate/lang/css/syntaxes/css.tmLanguage.json",
+      "name": "css",
+      "scopeName": "source.css",
+      "languageConfiguration": "textmate/lang/css/css.language-configuration.json"
+    },
+    {
+      "grammar": "textmate/lang/groovy/syntaxes/groovy.tmLanguage.json",
+      "name": "groovy",
+      "scopeName": "source.groovy",
+      "languageConfiguration": "textmate/lang/groovy/groovy.language-configuration.json"
+    },
+    {
+      "grammar": "textmate/lang/java/syntaxes/java.tmLanguage.json",
+      "name": "java",
+      "scopeName": "source.java",
+      "languageConfiguration": "textmate/lang/java/java.language-configuration.json"
+    },
+    {
+      "grammar": "textmate/lang/json/syntaxes/json.tmLanguage.json",
+      "name": "json",
+      "scopeName": "source.json",
+      "languageConfiguration": "textmate/lang/json/json.language-configuration.json"
+    },
+    {
+      "grammar": "textmate/lang/xml/syntaxes/xml.tmLanguage.json",
+      "name": "xml",
+      "scopeName": "text.xml",
+      "languageConfiguration": "textmate/lang/xml/xml.language-configuration.json"
+    },
+    {
+      "grammar": "textmate/lang/html/syntaxes/html.tmLanguage.json",
+      "name": "html",
+      "scopeName": "text.html.basic",
+      "languageConfiguration": "textmate/lang/html/html.language-configuration.json",
+      "embeddedLanguages": {
+        "source.js": "javascript"
+      }
+    },
+    {
+      "grammar": "textmate/lang/javascript/syntaxes/javascript.tmLanguage.json",
+      "name": "javascript",
+      "scopeName": "source.js",
+      "languageConfiguration": "textmate/lang/javascript/javascript.language-configuration.json"
+    },
+    {
+      "name": "markdown",
+      "scopeName": "text.html.markdown",
+      "grammar": "textmate/lang/markdown/syntaxes/markdown.tmLanguage.json",
+      "languageConfiguration": "textmate/lang/markdown/markdown.language-configuration.json",
+      "embeddedLanguages": {
+        "meta.embedded.block.html": "html",
+        "source.js": "javascript",
+        "meta.embedded.block.java": "java",
+        "meta.embedded.block.xml": "xml",
+        "meta.embedded.block.python": "python"
+      }
+    }
+  ]
+}

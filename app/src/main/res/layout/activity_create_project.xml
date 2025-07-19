@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:layoutDirection="locale"
+    android:textDirection="locale"
+    tools:context=".activity.CreateProjectActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="inherit"
+        android:textDirection="inherit">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layoutDirection="inherit"
+            android:textDirection="inherit" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layoutDirection="inherit"
+        android:textDirection="inherit">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layoutDirection="inherit"
+            android:textDirection="inherit">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textfield_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true"
+                android:layoutDirection="inherit"
+                android:textDirection="inherit">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_text_1"
+                    android:inputType="text"
+                    android:orientation="horizontal"
+                    tools:ignore="VisualLintTextFieldSize"
+                    android:layoutDirection="inherit"
+                    android:textDirection="inherit" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textfield_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true"
+                app:hintTextColor="?attr/colorOnSurfaceVariant"
+                android:layoutDirection="inherit"
+                android:textDirection="inherit">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/text_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_text_2"
+                    android:inputType="text"
+                    android:orientation="horizontal"
+                    tools:ignore="VisualLintTextFieldSize"
+                    android:layoutDirection="inherit"
+                    android:textDirection="inherit" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textfield_3"
+                style="?attr/textInputOutlinedExposedDropdownMenuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true"
+                android:layoutDirection="inherit"
+                android:textDirection="inherit"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/auto_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/minSdk"
+                    android:inputType="none"
+                    android:orientation="horizontal"
+                    android:text="@string/sdk_21"
+                    tools:ignore="VisualLintTextFieldSize"
+                    android:layoutDirection="inherit"
+                    android:textDirection="inherit"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textfield_4"
+                style="?attr/textInputOutlinedExposedDropdownMenuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true"
+                android:layoutDirection="inherit"
+                android:textDirection="inherit">
+
+                <AutoCompleteTextView
+                    android:id="@+id/auto_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/targetSdk"
+                    android:inputType="none"
+                    android:orientation="horizontal"
+                    android:text="@string/sdk_31"
+                    tools:ignore="VisualLintTextFieldSize"
+                    android:layoutDirection="inherit"
+                    android:textDirection="inherit" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/linear5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:layoutDirection="inherit"
+                android:textDirection="inherit">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textfield_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:layout_weight="1"
+                    android:layoutDirection="inherit"
+                    android:textDirection="inherit">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/text_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_text_3"
+                        android:inputType="number"
+                        android:orientation="horizontal"
+                        tools:ignore="VisualLintTextFieldSize"
+                        android:layoutDirection="inherit"
+                        android:textDirection="inherit" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textfield_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_weight="1"
+                    android:layoutDirection="inherit"
+                    android:textDirection="inherit">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/text_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_text_4"
+                        android:inputType="text|numberDecimal"
+                        android:orientation="horizontal"
+                        tools:ignore="VisualLintTextFieldSize"
+                        android:layoutDirection="inherit"
+                        android:textDirection="inherit" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layoutDirection="inherit"
+            android:textDirection="inherit">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_1"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/action_back"
+                android:textSize="14sp"
+                android:layoutDirection="inherit"
+                android:textDirection="inherit" />
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layoutDirection="inherit"
+                android:textDirection="inherit" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_2"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/action_create"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="14sp"
+                android:layoutDirection="inherit"
+                android:textDirection="inherit" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

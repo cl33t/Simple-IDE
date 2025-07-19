@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:icon="@drawable/ic_auto_install"
+        app:key="autorun"
+        app:layout="@layout/switch_settings_item"
+        app:summary="@string/pref_build_run_opt1_summary"
+        app:title="@string/pref_build_run_opt1_title" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="false"
+        app:icon="@drawable/ic_analytics"
+        app:key="logs"
+        app:layout="@layout/switch_settings_item"
+        app:summary="@string/pref_build_run_opt2_summary"
+        app:title="@string/pref_build_run_opt2_title" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:icon="@drawable/ic_puzzle"
+        app:key="desugar"
+        app:layout="@layout/switch_settings_item"
+        app:summary="@string/pref_build_run_opt3_summary"
+        app:title="@string/pref_build_run_opt3_title" />
+
+
+</androidx.preference.PreferenceScreen>

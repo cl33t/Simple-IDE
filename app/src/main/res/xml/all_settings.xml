@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <s.ide.ui.preference.MaterialListPreference
+        android:defaultValue="0"
+        android:entries="@array/theme_entries"
+        android:entryValues="@array/theme_values"
+        android:key="theme"
+        android:summary="@string/pref_theme_summary"
+        android:title="@string/pref_theme_title"
+        app:icon="@drawable/ic_appearance"
+        app:layout="@layout/text_settings_item" />
+
+    <Preference
+        app:icon="@drawable/ic_build"
+        app:key="build_and_run"
+        app:layout="@layout/text_settings_item"
+        app:summary="@string/pref_build_summary"
+        app:title="@string/pref_build_title" />
+
+    <Preference
+        app:icon="@drawable/ic_edit_v2"
+        app:key="editor"
+        app:layout="@layout/text_settings_item"
+        app:summary="@string/pref_editor_summary"
+        app:title="@string/pref_editor_title" />
+
+</PreferenceScreen>

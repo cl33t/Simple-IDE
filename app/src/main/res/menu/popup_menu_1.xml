@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      app:popupTheme="@style/Widget.Material3.PopupMenu.Overflow">
+
+    <item android:id="@+id/option_1"
+          android:title="@string/settings"
+          app:showAsAction="never"/>
+
+</menu>

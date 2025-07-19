@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sdk">
+        <item>@string/sdk_34</item>
+        <item>@string/sdk_33</item>
+        <item>@string/sdk_32</item>
+        <item>@string/sdk_31</item>
+        <item>@string/sdk_30</item>
+        <item>@string/sdk_29</item>
+        <item>@string/sdk_28</item>
+        <item>@string/sdk_27</item>
+        <item>@string/sdk_26</item>
+        <item>@string/sdk_25</item>
+        <item>@string/sdk_24</item>
+        <item>@string/sdk_23</item>
+        <item>@string/sdk_22</item>
+        <item>@string/sdk_21</item>
+    </string-array>
+
+    <string-array name="tab_size_entries">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="tab_size_values">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="symbols">
+        <item>@string/leading</item>
+        <item>@string/trailing</item>
+        <item>@string/inner</item>
+        <item>@string/empty_lines</item>
+        <item>@string/line_breaks</item>
+    </string-array>
+
+    <string-array name="symbol_values">
+        <item>leading</item>
+        <item>trailing</item>
+        <item>inner</item>
+        <item>empty_lines</item>
+        <item>line_breaks</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>@string/follow_system</item>
+        <item>@string/dark</item>
+        <item>@string/light</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="formatter_options_entries">
+        <item>@string/fix_imports_only</item>
+        <item>@string/skip_sorting_imports</item>
+        <item>@string/skip_removing_unused_imports</item>
+        <item>@string/skip_reflowing_long_strings</item>
+        <item>@string/skip_javadoc_formatting</item>
+    </string-array>
+
+    <string-array name="formatter_options_values">
+        <item>--fix-imports-only</item>
+        <item>--skip-sorting-imports</item>
+        <item>--skip-removing-unused-imports</item>
+        <item>--skip-reflowing-long-strings</item>
+        <item>--skip-javadoc-formatting</item>
+    </string-array>
+
+</resources>

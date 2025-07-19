@@ -1,0 +1,21 @@
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:popupTheme="@style/Widget.Material3.PopupMenu.ContextMenu"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/case_sensitive"
+        android:checkable="true"
+        android:title="@string/case_sensitive"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/use_regex"
+        android:checkable="true"
+        android:title="@string/use_regex"
+        app:showAsAction="never" />
+
+</menu>

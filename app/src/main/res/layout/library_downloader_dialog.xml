@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20sp"
+        android:layout_marginStart="20sp"
+        android:text="@string/download_dependency"
+        android:textAppearance="?attr/textAppearanceTitleLarge" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dependency_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="16sp"
+        android:hint="@string/enter_dependency"
+        android:importantForAutofill="noExcludeDescendants"
+        app:placeholderText="@string/local_library_manager_dependency_example">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dependency_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <CheckBox
+        android:id="@+id/cb_skip_subdependencies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="8sp"
+        android:paddingStart="8sp"
+        android:text="@string/local_library_manager_skip_downloading_dependencies"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16sp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="12sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16sp"
+            android:layout_weight="1"
+            android:text="@string/action_negative" />
+
+        <!-- Somehow `?attr/materialButtonStyle` doesn't work, I mean it works, but
+             it's shows TextButton style somehow, currently using style directly, until we fix it -->
+        <Button
+            android:id="@+id/btn_download"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/action_download" />
+
+    </LinearLayout>
+
+</LinearLayout>
