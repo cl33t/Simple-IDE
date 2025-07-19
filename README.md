@@ -1,6 +1,6 @@
 ### Simple IDE for Android  
 
-**Lightweight Java Android IDE**. Originally created as an IDE for web development, it was later redesigned to create Android apps as an experiment. After years of intermittent development, it reached a functional state in 2024. Unable to publish on Google Play due to lack of testers, I'm open-sourcing it here - hoping someone finds the code useful.  
+**Lightweight Android IDE**. Originally created as an IDE for web development, it was later redesigned to create Android apps as an experiment. After years of intermittent development, it reached a functional state in 2024. Unable to publish on Google Play due to lack of testers, I'm open-sourcing it here - hoping someone finds the code useful.  
 
 ---
 
