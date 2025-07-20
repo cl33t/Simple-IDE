@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvxhjsd%2FSimple-IDE.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvxhjsd%2FSimple-IDE?ref=badge_shield)
+
 ### Simple IDE for Android  
 
 **Lightweight Android IDE**. Originally created as an IDE for web development, it was later redesigned to create Android apps as an experiment. After years of intermittent development, it reached a functional state in 2024. Unable to publish on Google Play due to lack of testers, I'm open-sourcing it here - hoping someone finds the code useful.  
@@ -60,3 +62,6 @@ If you need to quickly test a few lines or create simple app, like a clicker, th
 <img src="https://github.com/vxhjsd/Simple-IDE/blob/master/assets/license.png" alt="GPLv3 License" style="width: 225px; height: auto;" />
 
 This project is licensed under the [**GPLv3**](https://github.com/vxhjsd/Simple-IDE/blob/master/LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvxhjsd%2FSimple-IDE.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvxhjsd%2FSimple-IDE?ref=badge_large)
