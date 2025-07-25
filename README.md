@@ -1,62 +1,36 @@
-### Simple IDE for Android  
+# Simple IDE for Android  
 
-**Lightweight Android IDE**. Originally created as an IDE for web development, it was later redesigned to create Android apps as an experiment. After years of intermittent development, it reached a functional state in 2024. Unable to publish on Google Play due to lack of testers, I'm open-sourcing it here - hoping someone finds the code useful.  
+Lightweight Android IDE. Originally created for web development, later redesigned for Android apps. **After a long development journey, this project is now open-sourced to preserve the work.**
 
----
-
-### Key Features  
-- **Only Java**: Kotlin *not* supported
-  (but there's an unused compiler class that possibly can be easily implemented)
-- **XML Layouts**: XML for UI design  
+## Key Features
+- **Java Only**: Kotlin not supported  
+  (Unused compiler class may enable Kotlin support)
+- **XML Layouts**: UI design via XML  
 - **Custom Build System**:  
-  - Faster than Gradle but less feature-rich
+  - Faster than Gradle, fewer features
 - **Library Management**:  
-  - Download any library manually  
-  - Pre-installed libraries in template project 
-- **Code Formatting**: Java, XML, and JSON files  
+  - Manual library downloads  
+  - Pre-installed libraries in templates 
+- **Code Formatting**: Java, XML, JSON  
 
----
+## Get Started
+1. Download latest APK from [GitHub Actions](https://github.com/vxhjsd/Simple-IDE/actions)
+2. Install on Android 12+
+3. Create New Project → Start coding
 
-### Project History  
-- 🌐 **Started as an IDE for web development** years ago  
-- 📱 **Rebuilt for creating Android apps** as a personal experiment  
-- ⏳ **Development paused multiple times** due to life circumstances  
-- 🚀 **Basic functionality completed** in 2024  
-- ❌ **Failed Google Play publish** (insufficient testers)  
-- 💡 **Now open-sourced** to avoid wasting the effort  
+## Future Development
+Continuation depends on community interest.
 
----
+### Potential Improvements
+- [ ] TreeView rework ([Luminarr](https://github.com/vxhjsd/Luminarr)-style)
+- [ ] Backport fixes from [Luminarr](https://github.com/vxhjsd/Luminarr)
+- [ ] Project Settings Manager
+- [ ] Build system enhancements ([XedoxDev](https://github.com/XedoxDev))
 
-### Get app
-1. Download latest APK from actions
-2. Install on Android 12+ device
-3. Open → Create New Project → Start coding
+## Why Use This?
+For quick tests or simple apps (e.g., clickers). For complex projects, use full-featured IDEs.
 
----
+> Note: Not a polished product. Bugs exist. Contributions welcome!
 
-### Further Development?  
-*Continuation of work depends on community interest.* This project **doesn't compete** with advanced IDEs like [AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE) since it lacks many useful features like multi-module projects (though fixable), kotlin support, visual xml, etc.
-
-Potential TODO:
-
-- [ ] TreeView rework (Luminarr-style)  
-- [ ] Backport other fixes/features from [Luminarr](https://github.com/vxhjsd/luminarr)  
-- [ ] Project Settings Manager  
-- [ ] Libraries Manager  
-- [ ] Resources Manager  
-- [ ] Build system enhancements (based on [XedoxDev](https://github.com/XedoxDev) developments)  
-
----
-
-### Why Use This?  
-If you need to quickly test a few lines or create simple app, like a clicker, this might help. For complex projects, consider more feature-rich alternatives.  
-
-> **Note**: This is not a polished product. Bugs exist. Contributions welcome!
-
----
-
-### License
-
-<img src="https://github.com/vxhjsd/Simple-IDE/blob/master/assets/license.png" alt="GPLv3 License" style="width: 225px; height: auto;" />
-
-This project is licensed under the [**GPLv3**](https://github.com/vxhjsd/Simple-IDE/blob/master/LICENSE)
+## License
+[![GPLv3 License](https://github.com/vxhjsd/Simple-IDE/blob/master/assets/license.png)](https://www.gnu.org/licenses/gpl-3.0.en.html)
