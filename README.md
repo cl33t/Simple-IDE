@@ -1,6 +1,6 @@
 # Simple IDE for Android
 
-[![GitHub Actions Build](https://img.shields.io/badge/Download-Latest_APK-blue?logo=github)](https://github.com/xapani/Simple-IDE/actions)
+[![GitHub Actions Build](https://img.shields.io/badge/Download-Latest_APK-blue?logo=github)](https://github.com/cl33t/Simple-IDE/actions)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-success)](https://www.gnu.org/licenses/gpl-3.0)
 [![Android 12+](https://img.shields.io/badge/Android-12%2B-brightgreen?logo=android)]()
 
@@ -14,7 +14,7 @@ After a long development journey, this project is now open-sourced to preserve t
 | Component       | Status | Notes                          |
 |-----------------|--------|--------------------------------|
 | Java Compiler   | ✅     |                               |
-| Kotlin Compiler | ❌     | [Unused class available](https://github.com/xapani/Simple-IDE/blob/master/compiler/src/main/java/s/ide/compiler/KotlinCompiler.java) |
+| Kotlin Compiler | ❌     | [Unused class available](https://github.com/cl33t/Simple-IDE/blob/master/compiler/src/main/java/s/ide/compiler/KotlinCompiler.java) |
 | D8              | ✅     |                               |
 | AAPT2           | ✅     |                               |
 | APK Signer      | ✅     |                               |
@@ -33,7 +33,7 @@ After a long development journey, this project is now open-sourced to preserve t
 ---
 
 ## Get Started
-1. Download latest APK from [GitHub Actions](https://github.com/xapani/Simple-IDE/actions)
+1. Download latest APK from [GitHub Actions](https://github.com/cl33t/Simple-IDE/actions)
 2. Install on Android 12+
 3. Create New Project → Start coding
 
@@ -45,7 +45,7 @@ Continuation depends on community interest.
 ---
 
 ## Potential Improvements
-- [ ] Backport fixes & features (from [Luminarr](https://github.com/xapani/Luminarr))
+- [ ] Backport fixes & features (from [Luminarr](https://github.com/cl33t/Luminarr))
 - [ ] Build system enhancements (from [TarkoBuilder](https://github.com/XedoxDev/TarkoBuilder))
 
 ---
@@ -63,4 +63,4 @@ Continuation depends on community interest.
 ---
 
 ## License
-[![GPLv3 License](https://github.com/xapani/Simple-IDE/blob/master/assets/license.png)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![GPLv3 License](https://github.com/cl33t/Simple-IDE/blob/master/assets/license.png)](https://www.gnu.org/licenses/gpl-3.0.en.html)
