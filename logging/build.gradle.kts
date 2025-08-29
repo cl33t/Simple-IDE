@@ -29,5 +29,5 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.9.2")
     //noinspection KtxExtensionAvailable
     implementation("androidx.lifecycle:lifecycle-livedata-core:2.9.2")
-    implementation("androidx.core:core-ktx:1.17.0-beta01")
+    implementation("androidx.core:core-ktx:1.17.0")
 }
