@@ -27,6 +27,6 @@ dependencies {
 
     //noinspection GradleDependency
     implementation("org.eclipse.jdt:ecj:3.18.0")
-    implementation("com.android.tools:r8:8.9.35")
+    implementation("com.android.tools:r8:8.11.18")
     implementation("androidx.annotation:annotation-jvm:1.9.1")
 }
