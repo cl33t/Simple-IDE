@@ -73,7 +73,7 @@ dependencies {
     implementation("commons-io:commons-io:2.20.0")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.19.2")
 
-    implementation("com.android.tools:r8:8.9.35")
+    implementation("com.android.tools:r8:8.11.18")
     implementation(project(":compiler"))
     implementation(project(":signer"))
     implementation(project(":logging"))
