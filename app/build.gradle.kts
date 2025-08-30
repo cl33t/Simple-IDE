@@ -70,7 +70,7 @@ dependencies {
     implementation("io.github.Rosemoe.sora-editor:editor")
     implementation("io.github.Rosemoe.sora-editor:language-textmate")
     implementation("com.google.code.gson:gson:2.13.1")
-    implementation("commons-io:commons-io:2.19.0")
+    implementation("commons-io:commons-io:2.20.0")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.19.2")
 
     implementation("com.android.tools:r8:8.9.35")
