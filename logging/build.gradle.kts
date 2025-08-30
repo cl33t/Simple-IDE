@@ -26,7 +26,7 @@ dependencies {
     implementation("commons-io:commons-io:2.19.0")
     implementation("androidx.annotation:annotation-jvm:1.9.1")
     implementation("androidx.recyclerview:recyclerview:1.4.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.9.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.9.3")
     //noinspection KtxExtensionAvailable
     implementation("androidx.lifecycle:lifecycle-livedata-core:2.9.2")
     implementation("androidx.core:core-ktx:1.17.0")

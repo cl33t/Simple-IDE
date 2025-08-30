@@ -64,7 +64,7 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.9.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.9.3")
     implementation("androidx.preference:preference-ktx:1.2.1")
     implementation(platform("io.github.Rosemoe.sora-editor:bom:0.23.6"))
     implementation("io.github.Rosemoe.sora-editor:editor")
