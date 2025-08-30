@@ -25,5 +25,5 @@ dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(project(":utils"))
     implementation(project(":logging"))
-    implementation("androidx.core:core-ktx:1.17.0-beta01")
+    implementation("androidx.core:core-ktx:1.17.0")
 }

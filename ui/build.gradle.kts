@@ -26,5 +26,5 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     //noinspection KtxExtensionAvailable
     implementation("androidx.preference:preference:1.2.1")
-    implementation("androidx.core:core-ktx:1.17.0-beta01")
+    implementation("androidx.core:core-ktx:1.17.0")
 }
