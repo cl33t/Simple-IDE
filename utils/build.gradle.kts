@@ -26,7 +26,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.7.1")
     implementation("com.google.android.material:material:1.12.0")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.20.0")
-    implementation("com.google.code.gson:gson:2.13.1")
+    implementation("com.google.code.gson:gson:2.13.2")
     implementation("androidx.core:core-ktx:1.17.0")
 
     implementation("io.github.Rosemoe.sora-editor:editor:0.23.6")
