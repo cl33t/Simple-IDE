@@ -79,7 +79,7 @@ dependencies {
     implementation(project(":logging"))
     implementation(project(":utils"))
     implementation(project(":ui"))
-    implementation("androidx.activity:activity:1.10.1")
+    implementation("androidx.activity:activity:1.11.0")
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
 
 }
