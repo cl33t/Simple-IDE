@@ -28,6 +28,6 @@ dependencies {
     implementation("androidx.recyclerview:recyclerview:1.4.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.9.4")
     //noinspection KtxExtensionAvailable
-    implementation("androidx.lifecycle:lifecycle-livedata-core:2.9.3")
+    implementation("androidx.lifecycle:lifecycle-livedata-core:2.9.4")
     implementation("androidx.core:core-ktx:1.17.0")
 }
